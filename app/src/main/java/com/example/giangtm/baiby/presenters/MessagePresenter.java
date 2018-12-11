@@ -56,7 +56,7 @@ public class MessagePresenter {
         @Override
         protected Void doInBackground(Void... voids) {
             try {
-                socketOfClient = new Socket("127.0.0.1", 9999);
+                socketOfClient = new Socket("192.168.232.2", 9999);
                 os = new BufferedWriter(new OutputStreamWriter(socketOfClient.getOutputStream()));
                 result = true;
                 Log.d("giangtm1", "run: success");
