@@ -1,4 +1,4 @@
-package com.example.giangtm.baiby.views.adapters;
+package com.example.giangtm.baiby.chat.views.adapters;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -7,14 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.giangtm.baiby.Constants;
 import com.example.giangtm.baiby.R;
-import com.example.giangtm.baiby.models.Message;
+import com.example.giangtm.baiby.chat.models.Message;
 
 import java.util.ArrayList;
 
 import static com.example.giangtm.baiby.Constants.INCOMMINGMESSAGE;
-import static com.example.giangtm.baiby.Constants.OUTCOMMINGMESSAGE;
 
 public class MessageAdapter extends RecyclerView.Adapter {
 

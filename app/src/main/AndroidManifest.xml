@@ -3,6 +3,7 @@
     package="com.example.giangtm.baiby">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,14 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.activities.MainActivity">
+        <activity android:name=".chat.views.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <service android:name=".services.SocketService"/>
+
+        <service android:name=".chat.services.SocketService" />
+
+        <activity android:name=".configure.ConfigActivity"></activity>
     </application>
 
 </manifest>

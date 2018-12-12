@@ -4,6 +4,7 @@
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="56dp"
+    android:padding="10dp"
     android:background="@color/colorPrimary">
 
     <LinearLayout
@@ -12,7 +13,8 @@
         android:layout_centerVertical="true"
         android:layout_height="40dp"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="gone">
 
         <ImageView
             android:layout_width="25dp"
@@ -55,4 +57,12 @@
             android:visibility="gone"
             />
     </LinearLayout>
+    <ImageView
+        android:id="@+id/btnConfig"
+        android:src="@drawable/ic_settings"
+        android:layout_alignParentRight="true"
+        android:padding="8dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

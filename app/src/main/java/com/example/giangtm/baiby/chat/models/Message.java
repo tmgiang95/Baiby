@@ -1,6 +1,8 @@
-package com.example.giangtm.baiby.models;
+package com.example.giangtm.baiby.chat.models;
 
-public class Message {
+import java.io.Serializable;
+
+public class Message implements Serializable {
 
     private int type;
     private String message;
